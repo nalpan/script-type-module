@@ -1,0 +1,5 @@
+function main(){
+  draw()
+}
+
+main()
