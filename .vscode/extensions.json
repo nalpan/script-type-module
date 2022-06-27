@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "vscode-icons-team.vscode-icons",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens"
+    ]
+}
