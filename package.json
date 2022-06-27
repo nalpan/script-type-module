@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server ./public",
+    "lint:fix": "eslint --fix .eslintrc.js ./*.js ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
     "http-server": "^14.1.1"
   }
 }

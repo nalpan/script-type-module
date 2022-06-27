@@ -1,6 +1,6 @@
 /** 円を描く */
-function draw(){
-  const canvas = document.querySelector("#canvas")
+function draw () {
+  const canvas = document.querySelector('#canvas')
   const ctx = canvas.getContext('2d')
 
   ctx.beginPath()
