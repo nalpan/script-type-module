@@ -1,5 +1,6 @@
 {
   "eslint.format.enable": true,
   "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "modificationsIfAvailable"
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "livePreview.defaultPreviewPath": "/public"
 }
