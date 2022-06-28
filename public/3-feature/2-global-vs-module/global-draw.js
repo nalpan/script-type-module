@@ -1,5 +1,5 @@
 /**
- * 指定されたセレクタに円を描く
+ * 指定されたセレクタに正方形を描く
  * @param {string} selector
  */
 function draw (selector) {
@@ -7,6 +7,5 @@ function draw (selector) {
   const ctx = canvas.getContext('2d')
 
   ctx.beginPath()
-  ctx.arc(75, 75, 50, 0, Math.PI * 2, true)
-  ctx.stroke()
+  ctx.strokeRect(75, 75, 50, 50)
 }

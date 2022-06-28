@@ -45,9 +45,9 @@
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Modules#other_differences_between_modules_and_standard_scripts
 
-1. `モジュール化script` から `グローバルscript` は参照できる -> 実コード
-1. `グローバルscript` とimportした関数が被っているときは、**importした関数**が優先 -> 実コード
-   1. `globalThis` を使えば `グローバルscript` を明示的に指定できる -> 実コード
+1. [`モジュール化script` から `グローバルscript` は参照できる](./public/3-feature/1-callable-global/README.md)
+1. [`グローバルscript` と `モジュール化script` でimportした関数が被っているときは、`モジュール化script` が優先](./public/3-feature/2-global-vs-module/README.md)
+   1. `window` オブジェクトを使えば `グローバルscript` を明示的に指定できる
 1. `グローバルscript` から `モジュール化script` は参照できない -> 実コード
    1. `モジュール化script` ごとにスコープが区切られ、グローバルからは見えないため -> イメージ
    1. html上のonclickなどからも実行不可能
