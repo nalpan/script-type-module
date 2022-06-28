@@ -1,2 +1,14 @@
-- import/exportを使ってモジュールを読み込む
-- htmlでは `type="modules"` を**利用せしてず** `main.js` を読み込む
+別のファイルと関数名が競合する
+
+```html
+<script src="./draw.js"></script> <!-- 呼び出したいdraw関数 -->
+<script src="./main.js"></script>
+```
+
+↓
+
+```html
+<script src="./draw.js"></script> <!-- 呼び出したいdraw関数 -->
+<script src="./common.js"></script> <!-- draw関数が定義されている -->
+<script src="./main.js"></script>
+```
