@@ -1,5 +1,5 @@
 function main () {
-  draw('#canvas')
+  window.draw('#canvas')
 }
 
 main()
