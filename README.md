@@ -3,7 +3,6 @@
 # 対象者
 
 - JSで関数を定義するコードを書けること
-- ESModulesの構文を使って関数のエクスポート、インポートができること
 
 
 # 話すこと
@@ -17,6 +16,7 @@
 - 空オブジェクト利用などのテクニックについて
 - 動的importについて
 - scriptタグの属性 `defer`, `async` について
+- linkタグの `rel="modulepreload"` について
 - CommonJSなどの他モジュールシステムや `.mjs`, `.cjs` について
 - Node.jsでの実行について
 
@@ -57,7 +57,8 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Modules#other_differe
          1. 後から上書きできるため、以前の問題が発生する可能性あり
 1. **別の** `モジュール化script` で定義されたものは利用できない -> 実コード
    1. 上記と同じく `モジュール化script` ごとにスコープが異なるため -> イメージ
-1. CORS不可
+1. `モジュール化script` の読み込み〜実行は `defer` と同じ
+1. `モジュール化script` はCORS不可
    1. セキュリティ要件によるもの
 1. `モジュール化script` はstrictモードで動作する
 
@@ -69,6 +70,11 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Modules#other_differe
    1. もちろんグローバルで読み込まれているjQueryや他ライブラリも `モジュール化スクリプト` で利用できる
 1. b
 1. c
+
+
+## バンドラツール不要説？
+
+実際にはネットワークや依存解決のパフォーマンス最適化があるので厳しいとのこと
 
 
 
