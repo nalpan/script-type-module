@@ -1,5 +1,5 @@
 function main () {
-  draw('#canvas')
+  draw('#canvas') // common.jsのdrawが参照される
 }
 
 main()

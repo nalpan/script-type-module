@@ -5,4 +5,4 @@ function main () {
 }
 
 const element = document.querySelector('button')
-element.addEventListener('click', main) // イベントに関数を紐付け
+element.addEventListener('click', main) // buttonのclickイベントに関数を紐付け

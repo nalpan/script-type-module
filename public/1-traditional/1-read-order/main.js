@@ -1,5 +1,5 @@
 function main () {
-  draw('#canvas')
+  draw('#canvas') // Uncaught ReferenceError: draw is not defined
 }
 
 main()
