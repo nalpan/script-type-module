@@ -9,7 +9,7 @@
 # 話すこと
 
 - import/exportを使った関数をブラウザで動作させる方法
-- webpack / Viteでの取り扱い (extra)
+-  (できれば) webpack / Viteでの取り扱い
 
 
 # 話さないこと
