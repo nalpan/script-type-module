@@ -45,7 +45,6 @@
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Modules#other_differences_between_modules_and_standard_scripts
 
-1. `モジュール化script` はstrictモードで動作する
 1. `モジュール化script` から `グローバルscript` は参照できる -> 実コード
 1. `グローバルscript` とimportした関数が被っているときは、**importした関数**が優先 -> 実コード
    1. `globalThis` を使えば `グローバルscript` を明示的に指定できる -> 実コード
@@ -60,6 +59,7 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Modules#other_differe
    1. 上記と同じく `モジュール化script` ごとにスコープが異なるため -> イメージ
 1. CORS不可
    1. セキュリティ要件によるもの
+1. `モジュール化script` はstrictモードで動作する
 
 
 ## 中田が思う使い所
