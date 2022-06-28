@@ -2,7 +2,7 @@
  * 指定されたセレクタに円を描く
  * @param {string} selector
  */
-function draw (selector) {
+export function draw (selector) {
   const canvas = document.querySelector(selector)
   const ctx = canvas.getContext('2d')
 

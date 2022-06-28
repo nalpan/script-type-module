@@ -48,12 +48,12 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Modules#other_differe
 1. [`モジュール化script` から `グローバルscript` は参照できる](./public/3-feature/1-callable-global/README.md)
 1. [`グローバルscript` と `モジュール化script` でimportした関数が被っているときは、`モジュール化script` が優先](./public/3-feature/2-global-vs-module/README.md)
    - [`window` オブジェクトを使えば `グローバルscript` を明示的に指定できる](./public/3-feature/2-global-vs-module/2-1-window/README.md)
-1. [`グローバルscript` から `モジュール化script` は参照できない]()
+1. [`グローバルscript` から `モジュール化script` は参照できない](./public/3-feature/3-refference-global-to-module/README.md)
    1. `モジュール化script` ごとにスコープが区切られ、グローバルからは見えないため -> イメージ
    1. html上のonclickなどからも実行不可能
-      1. 回避方法1: `モジュール化script` 上で `addEventListener` を使いイベントと処理を紐づける -> 実コード
+      1. 回避方法1: [`モジュール化script` 上で `addEventListener` を使いイベントと処理を紐づける](./public/3-feature/3-1-event-listener/README.md)
          1. イベントの管理が難しそう
-      1. 回避方法2: `window` オブジェクトに格納する -> 実コード
+      1. 回避方法2: [`window` オブジェクトに格納する](./public/3-feature/3-2-window/README.md)
          1. 後から上書きできるため、以前の問題が発生する可能性あり
 1. **別の** `モジュール化script` で定義されたものは利用できない -> 実コード
    1. 上記と同じく `モジュール化script` ごとにスコープが異なるため -> イメージ
