@@ -25,20 +25,19 @@
 
 ## 以前の書き方
 
-1. 分割したJSファイルを読み込み
-   1. 読み込み順の指定
-      1. 読み込まれた順に実行されるため、関数定義のあるファイルを先に書かないといけない
-   1. 関数名の衝突
-      1. 理由の解説: グローバルに定義されるため
+1. [読み込み順の指定](./public/1-traditional/1-read-order/README.md)
+   1. 読み込まれた順に実行されるため、関数定義のあるファイルを先に書かないといけない
+1. [関数名の衝突](./public/1-traditional/2-name-conflict/README.md)
+   1. 理由の解説: グローバルに定義されるため
 
 
 ## ESModulesの登場
 
 1. import/exportの簡単な説明と書き方
-1. import/exportを使って書いてみる: 失敗する
+1. [import/exportを使って書いてみる](./public/2-ESModules/1-non-type-modules/README.md)
 1. ブラウザ上での取り扱いを確認
    1. https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Modules#applying_the_module_to_your_html
-1. `type="module"` で読み込む: 成功する
+1. [`type="module"` で読み込む](./public/2-ESModules/2-type-modules/README.md)
    1. 便宜上 `type="module"` で読み込まれたスクリプトを `モジュール化script` 、そうでないものを `グローバルscript` と呼ぶ、正式名称ではない
 
 

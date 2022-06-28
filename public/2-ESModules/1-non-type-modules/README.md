@@ -1,2 +1,14 @@
-- import/exportを使ってモジュールを読み込む
-- htmlでは `type="modules"` を**利用せしてず** `main.js` を読み込む
+旧来の書き方ではimport/exportは使えない
+
+```html
+<script src="./main.js"></script>
+```
+
+```js
+import { draw } from './draw'
+function main () {
+  draw('#canvas')
+}
+
+main()
+```
