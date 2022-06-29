@@ -72,12 +72,6 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Modules#other_differe
 1. c
 
 
-## バンドラツール不要説？
-
-実際にはネットワークや依存解決のパフォーマンス最適化があるので厳しいとのこと
-
-
-
 ## バンドルツール上での取り扱い (extra)
 
 1. webpackではどう扱っているか
