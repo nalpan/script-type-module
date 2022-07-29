@@ -1,4 +1,4 @@
-`モジュール化script` から `グローバルscript` は参照できる
+# `モジュール化script` から `グローバルscript` は参照できる
 
 ```html
 <script src="./draw.js"></script> <!-- グローバル -->

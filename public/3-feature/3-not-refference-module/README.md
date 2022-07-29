@@ -1,4 +1,4 @@
-`グローバルscript` から `モジュール化script` は参照できない
+# `グローバルscript` から `モジュール化script` は参照できない
 
 ```html
 <script src="./module-draw.js" type="module"></script> <!-- モジュール -->

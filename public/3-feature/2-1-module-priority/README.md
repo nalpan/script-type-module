@@ -1,4 +1,4 @@
-`グローバルscript` と `モジュール化script` でimportした関数が被っているときは、`モジュール化script` が優先
+# `グローバルscript` と `モジュール化script` でimportした関数が被っているときは、`モジュール化script` が優先
 
 ```html
 <script src="./global-draw.js"></script> <!-- グローバル -->

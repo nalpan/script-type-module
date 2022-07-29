@@ -1,4 +1,4 @@
-旧来の書き方ではimport/exportは使えない
+# 旧来そのままの書き方ではimport/exportは使えない
 
 ```html
 <script src="./main.js"></script>
