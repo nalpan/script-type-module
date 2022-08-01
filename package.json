@@ -2,14 +2,16 @@
   "name": "script-type-modules",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "http-server ./public",
     "lint:fix": "eslint --fix .eslintrc.js ./*.js ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "kazuhiro nakata",
+    "email": "nakata.kzhr@gmail.com"
+  },
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^8.18.0",
     "eslint-config-standard": "^17.0.0",
